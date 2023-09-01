@@ -1,0 +1,84 @@
+/* Global Settings */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Main Wrapper */
+
+.main-wrapper h1.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.main-wrapper .parent-container {
+  height: fit-content;
+  padding: 2vh 2vw;
+  width: fit-content;
+  background-color: rgb(60, 59, 59);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.parent-container .user-container {
+  width: 20%;
+  margin: 2vh 2vw;
+  height: fit-content;
+  /* background-color: red; */
+  margin-bottom: 2vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: first center;
+  padding: 2vh 2vw;
+  text-align: center;
+}
+
+.user-container .initials {
+  height: 200px;
+  width: 200px;
+  background-color: bisque;
+  border-radius: 50%;
+  /* vertically align text to the center of the div */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  color: white;
+}
+.user-container p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+}
+
+/* Coloring each initial div in a different color */
+.user-container:nth-child(1) .initials {
+  background-color: violet;
+}
+
+.user-container:nth-child(2) .initials {
+  background-color: lightgreen;
+}
+.user-container:nth-child(3) .initials {
+  background-color: lightblue;
+}
+.user-container:nth-child(4) .initials {
+  background-color: darkkhaki;
+}
+.user-container:nth-child(5) .initials {
+  background-color: blueviolet;
+}
+.user-container:nth-child(6) .initials {
+  background-color: blue;
+}
+.user-container:nth-child(7) .initials {
+  background-color: darkcyan;
+}
+.user-container:nth-child(8) .initials {
+  background-color: black;
+  color: white;
+  font-weight: 800;
+}

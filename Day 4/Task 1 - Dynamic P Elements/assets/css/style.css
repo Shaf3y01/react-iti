@@ -1,0 +1,48 @@
+/* Apply common styles to all elements */
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Center main heading */
+  .main-wrapper h1 {
+    text-align: center;
+  }
+  
+  /* Styling for paragraphs */
+  .container p {
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.5rem;
+    margin: 1rem 2rem;
+    background-color: rgb(194, 237, 237);
+  }
+  
+  /* Container layout */
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Button container layout */
+  .container .btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Button styles */
+  .btn-container button {
+    width: 10rem;
+    height: 3rem;
+    margin: 1rem;
+    border: none;
+    border-radius: 0.4rem;
+    background-color: rgb(144, 128, 237);
+    cursor: pointer;
+  }
+  

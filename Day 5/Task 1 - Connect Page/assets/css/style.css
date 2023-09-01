@@ -1,0 +1,194 @@
+/* Global Settings
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/* Main Wrapper */
+/* .main-wrapper {
+  background-image: url(../img/sky-blurred.jpg);
+  background-size: cover;
+  height: 100vw;
+}
+.main-wrapper h1 {
+  text-align: center;
+}
+
+.main-wrapper .container {
+  width: 50vw;
+  height: fit-content;
+  background-color: #fff;
+  box-shadow: 5px 25px 50px 0px rgba(0, 0, 0, 0.25);
+  margin: 5rem auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+.container .sub-container {
+  border-right: 2px solid rgb(233, 233, 233);
+  flex-basis: 1;
+  width: 50%;
+  padding: 1.5rem;
+}
+
+.sub-container h3 {
+  font-size: 2rem;
+}
+.container .btn-group {
+  flex-basis: 1;
+  width: 50%;
+  padding: 1.5rem;
+}
+
+.btn-group .fb-btn {
+  background-color: #4267b2 !important;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+.fb-btn .fab.fa-facebook {
+  margin: 0 1rem;
+}
+.btn-group .tw-btn {
+  background-color: #1da1f2;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+.tw-btn .fab.fa-twitter {
+  margin: 0 1rem;
+}
+.btn-group .g-btn {
+  background-color: #db4437 !important;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+.g-btn .fab.fa-google {
+  margin: 0 1rem;
+}
+
+.btn-group .g-btn,
+.btn-group .fb-btn,
+.btn-group .tw-btn {
+  width: 20vw;
+  box-shadow: 3px 1px 3px 0px rgba(0, 0, 0, 0.5);
+} */
+
+/* Global Settings */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/* Main Wrapper */
+.main-wrapper {
+  background-image: url(../img/sky-blurred.jpg);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-wrapper h1 {
+  text-align: center;
+}
+
+/* Container */
+.container {
+  width: 50%;
+  max-width: 600px; /* Added max-width for responsiveness */
+  background-color: #fff;
+  box-shadow: 5px 25px 50px 0px rgba(0, 0, 0, 0.25);
+  margin: 2rem auto; /* Reduced margin for responsiveness */
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+
+/* Sub-Container */
+.sub-container {
+  border-right: 2px solid rgb(233, 233, 233);
+  flex-basis: 50%;
+  padding: 1.5rem;
+}
+.sub-container h3 {
+  font-size: 2rem;
+}
+
+/* Button Group */
+.btn-group {
+  flex-basis: 50%;
+  padding: 1.5rem;
+  align-self: center;
+}
+
+/* Facebook Button */
+.fb-btn {
+  background-color: #4267b2;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  box-shadow: 3px 1px 3px 0px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+.fb-btn .fab.fa-facebook {
+  margin: 0 1rem;
+}
+
+/* Twitter Button */
+.tw-btn {
+  background-color: #1da1f2;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  box-shadow: 3px 1px 3px 0px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+.tw-btn .fab.fa-twitter {
+  margin: 0 1rem;
+}
+
+/* Google Button */
+.g-btn {
+  background-color: #db4437;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  box-shadow: 3px 1px 3px 0px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+.g-btn .fab.fa-google {
+  margin: 0 1rem;
+}

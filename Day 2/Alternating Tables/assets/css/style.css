@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
+* {
+  font-family: "Comfortaa", cursive;
+  text-align: center;
+}
+.content-table tbody tr:hover {
+  color: teal;
+}
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  min-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px 10px 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.25);
+}
+/* box-shadow: h-offset v-offset blur spread color |inset|initial|inherit;
+                       */
+.content-table thead tr {
+  background-color: teal;
+  color: #ffff;
+}
+.content-table th,
+.content-table td {
+  padding: 10px 16px;
+}
+.content-table tr {
+  border-bottom: 1px solid gray;
+}
+.content-table tr:nth-child(even) {
+  background-color: rgb(235, 232, 232);
+}
+.content-table tr:last-of-type {
+  border-bottom: 2px solid teal;
+}

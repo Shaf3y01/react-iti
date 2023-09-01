@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/stlye.css" />
+    <style>
+      /* Global Settings */
+
+      *,
+      *::after,
+      *::before {
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      /* Main Wrapper */
+
+      .main-wrapper h1.title {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .main-wrapper .parent-container {
+        height: fit-content;
+        padding: 2vh 2vw;
+        width: fit-content;
+        background-color: rgb(60, 59, 59);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .parent-container .user-container {
+        width: 20%;
+        margin: 2vh 2vw;
+        height: fit-content;
+        /* background-color: red; */
+        margin-bottom: 2vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: first center;
+        padding: 2vh 2vw;
+        text-align: center;
+      }
+
+      .user-container .initials {
+        height: 200px;
+        width: 200px;
+        background-color: bisque;
+        border-radius: 50%;
+        /* vertically align text to the center of the div */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 4rem;
+        color: white;
+      }
+      .user-container p {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: white;
+      }
+
+      /* Coloring each initial div in a different color */
+      .user-container:nth-child(1) .initials {
+        background-color: violet;
+      }
+
+      .user-container:nth-child(2) .initials {
+        background-color: lightgreen;
+      }
+      .user-container:nth-child(3) .initials {
+        background-color: lightblue;
+      }
+      .user-container:nth-child(4) .initials {
+        background-color: darkkhaki;
+      }
+      .user-container:nth-child(5) .initials {
+        background-color: blueviolet;
+      }
+      .user-container:nth-child(6) .initials {
+        background-color: blue;
+      }
+      .user-container:nth-child(7) .initials {
+        background-color: darkcyan;
+      }
+      .user-container:nth-child(8) .initials {
+        background-color: black;
+        color: white;
+        font-weight: 800;
+      }
+    </style>
+    <title>Day 3 - Zoom Mockup</title>
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <h1 class="title">Day 3 - Zoom Users Mockup</h1>
+      <hr />
+      <div class="parent-container">
+        <div class="user-container">
+          <div class="initials">MK</div>
+          <p class="full-name">Mahmoud Kamal</p>
+        </div>
+        <div class="user-container">
+          <div class="initials">SA</div>
+          <p class="full-name">Sarah Ahmed</p>
+        </div>
+        <div class="user-container">
+          <div class="initials">BG</div>
+          <p class="full-name">Beshoy Gamal</p>
+        </div>
+        <div class="user-container">
+          <div class="initials">JD</div>
+          <p class="full-name">Jhon Doe</p>
+        </div>
+        <div class="user-container">
+          <div class="initials">HK</div>
+          <p class="full-name">Hossam Khaled</p>
+        </div>
+        <div class="user-container">
+          <div class="initials">GN</div>
+          <p class="full-name">George Nabil</p>
+        </div>
+        <div class="user-container">
+          <div class="initials">ZM</div>
+          <p class="full-name">Zobry Mango</p>
+        </div>
+        <div class="user-container">
+          <div class="initials">...</div>
+          <p>&nbsp;</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

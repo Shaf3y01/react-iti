@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
+* {
+  font-family: "Comfortaa", cursive;
+  text-align: center;
+}
+.content-table tbody tr:hover {
+  color: teal;
+}
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  min-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px 10px 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.25);
+}
+/* box-shadow: h-offset v-offset blur spread color |inset|initial|inherit;
+                       */
+.content-table thead tr {
+  background-color: teal;
+  color: #ffff;
+}
+.content-table th,
+.content-table td {
+  padding: 10px 16px;
+}
+.content-table tr {
+  border-bottom: 1px solid gray;
+}
+.content-table tr:nth-child(even) {
+  background-color: rgb(235, 232, 232);
+}
+.content-table tr:last-of-type {
+  border-bottom: 2px solid teal;
+}
+
+    </style>
+    <title>Day 2 - Alternating Table</title>
+</head>
+<header>
+    <h1>
+        <b>More Table Exercises</b>
+    </h1>
+    <hr>
+</header>
+<body>
+    <div>
+        <table class="content-table" >
+            <div>
+                <thead>
+            <tr >
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+            </tr>
+        </thead>
+            </div>
+            <div>
+                <tbody>
+            <tr class="Members">
+                <td>Mahmoud</td>
+                <td>20</td>
+                <td>Male</td>
+            </tr>
+            </div>
+            <div>
+            <tr>
+                <td>Rawan</td>
+                <td>22</td>
+                <td>Female</td>
+            </tr>
+            </div>
+            <div>
+                <tr>
+                    <td>Kamal</td>
+                    <td>48</td>
+                    <td>Male</td>
+                </tr>
+            </div>
+            <div>
+                <tr>
+                    <td>Joselyn</td>
+                    <td>25</td>
+                    <td>Female</td>
+                </tr>
+            </div>
+            <div>
+                <tr>
+                    <td>Jimmy</td>
+                    <td>17</td>
+                    <td>Male</td>
+                </tr>
+            </tbody>
+            </div>
+        </table>
+    </div>
+</body>
+</html>

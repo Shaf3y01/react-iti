@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
+    <title>Day 6 - Complex Form</title>
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <h1>Day 6 - Complex Form</h1>
+      <hr />
+      <div class="form-container">
+        <form action="POST">
+          <div class="row">
+            <label for="fName">First&nbsp;Name</label>
+            <i class="fas fa-user"></i>
+            <input
+              type="text"
+              maxlength="16"
+              required
+              name="fName"
+              id="fName"
+            />
+          </div>
+          <div class="row">
+            <label for="lName">Last&nbsp;Name</label>
+            <i class="fas fa-user"></i>
+            <input
+              type="text"
+              maxlength="16"
+              required
+              name="lName"
+              id="lName"
+            />
+          </div>
+          <div class="row">
+            <label for="email">E-&nbsp;Mail</label>
+            <i class="fas fa-envelope"></i>
+            <input type="email" name="email" id="email" required />
+          </div>
+          <div class="row">
+            <label for="tele">Phone&nbsp;#</label>
+            <i class="fas fa-phone"></i> <input type="tel" />
+          </div>
+          <div class="row">
+            <label for="address">Address</label>
+            <i class="fas fa-house-user"></i> <input type="text" />
+          </div>
+          <div class="row">
+            <label for="city">City</label> <i class="fas fa-house-user"></i>
+            <select id="state">
+              <option value="alexandria">Alexandria</option>
+              <option value="cairo">Cairo</option>
+            </select>
+          </div>
+          <div class="row">
+            <label for="zip">Zip&nbsp;Code</label>
+            <i class="fas fa-envelope-open-text"></i>
+            <input type="num" required maxlength="8" minlength="4" />
+          </div>
+          <div class="row">
+            <label for="">Website</label><i class="fas fa-globe"></i>
+            <input type="text" />
+          </div>
+          <div class="row">
+            <label> Currently&nbspHosting</label>
+            <input type="radio" id="hosting-yes" name="hosting" value="yes" />
+            <label for="hosting-yes"><span class="radio-span">Yes</span></label>
+            <input type="radio" id="hosting-no" name="hosting" value="no" />
+            <label for="hosting-no"><span class="radio-span">No</span></label>
+          </div>
+          <div class="row textarea-row">
+            <label for="project-description">Project&nbsp;Description</label>
+            <i class="fas fa-pen"></i>
+            <textarea
+              id="project-description"
+              name="project-description"
+              rows="5"
+              cols="30"
+              oninput="adjustIconHeight(this)"
+            ></textarea>
+          </div>
+          <div class="row">
+            <button type="submit" class="btn-submit">
+              Send <i class="fas fa-paper-plane"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

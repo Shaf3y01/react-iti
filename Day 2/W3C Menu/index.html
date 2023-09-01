@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 2 - React Training</title>
+    <!-- <link rel="stylesheet" href="assets/style/style.css" /> -->
+    <style>
+      * {
+        /* margin: 0;
+      padding: 0; */
+        box-sizing: border-box;
+      }
+
+      .main-wrapper {
+        background-color: #193d3d;
+        color: white;
+        margin: 1rem;
+        padding: 5rem 2rem;
+      }
+      .main-wrapper p {
+        font-family: "Verdana", sans-serif;
+        font-size: 1rem;
+      }
+      .btn-container {
+        padding: 0.25rem 0;
+        display: relative;
+      }
+      /*  Reset all button settings */
+      .btn-container button {
+        border: 1px solid white;
+        border-radius: 5px;
+        color: white;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        font-family: "Source Sans Pro", sans-serif;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+      }
+      /* Make the buttons have a margin between them */
+      .btn-container button:not(:last-child) {
+        margin-bottom: 1.5rem;
+        background-color: #04aa6d;
+        border-color: #04aa6d;
+      }
+      .btn-container button:not(:last-child):hover {
+        background-color: #49943a;
+        border-color: #49943a;
+      }
+      .btn-popup #popup-button {
+        background-color: #0f2828;
+        border: none;
+        border-radius: 5px;
+        padding: 12px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        color: white;
+        position: relative;
+      }
+      .ribbon {
+        width: 60px;
+        font-size: 14px;
+        padding: 4px;
+        position: absolute;
+        left: -25px;
+        top: -12px;
+        text-align: center;
+        border-radius: 25px;
+        transform: rotate(-20deg);
+        background-color: #dcd17c;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <p>HTML is the standard markup language for Web pages.</p>
+      <p>With HTML you can create your own Website.</p>
+      <p>HTML is easy to learn - You will enjoy it!</p>
+      <div class="btn-container">
+        <button>Study our free HTML Tutorial</button>
+        <br />
+        <div class="btn-popup">
+          <button id="popup-button">
+            Watch our video Tutorial<span class="ribbon">NEW</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

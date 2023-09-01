@@ -1,0 +1,34 @@
+/* GLOBAL SETTINGS TO RESET MY CSS */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Main Wrapper */
+
+.main-wrapper h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.container .my-div-1 {
+  height: fit-content;
+  padding: 1rem;
+  margin: 0.5rem;
+  width: fit-content;
+  background-color: rgb(206, 255, 255);
+  color: #000;
+  border-left: 5px solid blue;
+}
+.container .my-div-2 {
+  height: fit-content;
+  padding: 1rem;
+  margin: 0.5rem;
+  width: fit-content;
+  background-color: rgb(198, 254, 204);
+  color: #000;
+  border-radius: 0.5rem;
+}
