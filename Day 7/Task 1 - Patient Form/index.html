@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Day 7 - Employee Patient Form</title>
+  </head>
+  <body>
+    <div class="container-lg mb-3">
+      <h1 class="text-center">Employee Patient Form</h1>
+      <hr />
+      <div class="container form-container">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"
+              >Employee Name</label
+            >
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                aria-label="First name"
+                class="form-control m-1"
+                placeholder="First"
+              />
+              <input
+                type="text"
+                aria-label="Last name"
+                class="form-control m-1"
+                placeholder="Last"
+              />
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control m-1"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="email@example.com"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputAddress" class="form-label">
+              Address
+            </label>
+            <input
+              type="address "
+              aria-label="First name"
+              class="form-control mb-2 m-1"
+              placeholder="Street Address"
+            />
+            <input
+              type="address "
+              aria-label="Last name"
+              class="form-control mb-2 m-1"
+              placeholder="Street Address Line 2"
+            />
+          </div>
+          <div class="mb-3 input-group">
+            <input
+              type="text"
+              aria-label="City"
+              class="form-control m-1"
+              placeholder="City"
+            />
+
+            <input
+              type="text"
+              aria-label="City"
+              class="form-control m-1"
+              placeholder="Postal/Zip Code"
+            />
+          </div>
+          <div class="mb-3 input-group">
+            <select class="form-select m-1" aria-label="Default select example">
+              <option selected>Region</option>
+              <option value="Egypt, Cairo">Cairo</option>
+              <option value="Egypt, Alex">Alexandria</option>
+              <option value="Egypt, Upper Egypt">Upper Egypt</option>
+            </select>
+            <select class="form-select m-1" aria-label="Default select example">
+              <option selected>Country</option>
+              <option value="Egypt">Egypt</option>
+              <option value="Saudi Arabia">Saudi Arabia</option>
+              <option value="United Arab Emirates">U.A.E</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="medical condition" class="form-label m-1 mb-2"
+              >Medical Condition</label
+            >
+            <br />
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio1"
+                value="Good"
+              />
+              <label class="form-check-label" for="inlineRadio1">Good</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio2"
+                value="Bad"
+              />
+              <label class="form-check-label" for="inlineRadio2">Bad</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio3"
+                value="Other"
+              />
+              <label class="form-check-label" for="inlineRadio3">Other</label>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="Allergies" class="form-label m-1">Allergies</label>
+            <input type="text" class="form-control m-1" />
+          </div>
+          <div class="mb-3">
+            <label for="Medications" class="form-label m-1">Medications</label>
+            <input type="text" class="form-control m-1" />
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
